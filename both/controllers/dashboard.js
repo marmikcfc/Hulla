@@ -1,10 +1,10 @@
 DashboardController = AppController.extend({
-  waitOn: function() {
+  /*waitOn: function() {
     return this.subscribe('items');
   },
   data: {
     items: Items.find({})
-  },
+  },*/
   onBeforeAction: function (pause) {
     AccountsTemplates.ensureSignedIn.call(this, pause);
   },

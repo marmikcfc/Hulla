@@ -1,12 +1,6 @@
-/*AccountsTemplates.configureRoute('signIn', {layoutTemplate: 'appLayout'});
-AccountsTemplates.configureRoute('signUp', {layoutTemplate: 'appLayout'});
-AccountsTemplates.configureRoute('ensureSignedIn', {layoutTemplate: 'appLayout'});*/
-
-
-
 AccountsTemplates.configureRoute('signIn', {layoutTemplate: 'appLayout',
                                            redirect: '/dashboard'});
-AccountsTemplates.configureRoute('signUp', {layoutTemplate: 'appLayout',redirect: '/dashboard'});
+AccountsTemplates.configureRoute('signUp', {layoutTemplate: 'appLayout',redirect: '/account'});
 AccountsTemplates.configureRoute('ensureSignedIn', {layoutTemplate: 'appLayout'});
 AccountsTemplates.configureRoute('forgotPwd');
 AccountsTemplates.configureRoute('resetPwd');

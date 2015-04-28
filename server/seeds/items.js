@@ -1,4 +1,4 @@
-Meteor.startup(function() {
+/*Meteor.startup(function() {
 
   Factory.define('item', Items, {
     name: function() { return Fake.sentence(); },
@@ -14,3 +14,4 @@ Meteor.startup(function() {
   }
 
 });
+*/

@@ -8,7 +8,7 @@
           <a href="{{pathFor 'home'}}" class="brand-logo">Hulla</a>
 
           <ul id="nav-mobile" class="right side-nav">
-            <li class="{{ isActiveRoute regex='home' }}"><a href="{{ pathFor 'home' }}"><i class="mdi-action-home left"></i>Home</a></li>
+            <li class="{{ isActiveRoute regex='account' }}"><a href="{{ pathFor 'account' }}"><i class="mdi-action-home left"></i>Account</a></li>
             <li class="{{ isActiveRoute regex='dashboard' }}"><a href="{{ pathFor 'dashboard' }}"><i class="mdi-action-settings left"></i>Dashboard</a></li>
             {{#if currentUser}}
               <li><a href="" data-action="logout">Signout</a></li>
