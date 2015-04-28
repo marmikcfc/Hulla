@@ -1,0 +1,14 @@
+<template name="dashboard">
+  <div>
+    <div>
+      <h2>Dashboard</h2>
+    </div>
+
+    <ul class="collection">
+      {{#each items}}
+        <li class="collection-item">{{ name }} <span class="badge">{{ rating }}</span></li>
+      {{/each}}
+    </ul>
+
+  </div>
+</template>
